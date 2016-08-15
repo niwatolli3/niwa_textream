@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18e2bdd5-734f-4706-943d-f288678e0994" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/console" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/setup" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/niwa_textream.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/niwa_textream/models/base_model.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/niwa_textream/models/category.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/niwa_textream/pages/main/main_page.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/niwa_textream/pages/top/top_page.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/niwa_textream/version.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/niwa_textream.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="niwa_textream.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -420,12 +408,12 @@
       <option name="presentableId" value="Default" />
       <updated>1471240944571</updated>
       <workItem from="1471240945874" duration="10000" />
-      <workItem from="1471240956444" duration="3729000" />
+      <workItem from="1471240956444" duration="3862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3739000" />
+    <option name="totallyTimeSpent" value="3872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="858" extended-state="0" />
