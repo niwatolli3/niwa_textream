@@ -1,6 +1,9 @@
 # NiwaTextream
 
 [![Build Status](https://travis-ci.org/niwatolli3/niwa_textream.svg?branch=master)](https://travis-ci.org/niwatolli3/niwa_textream)
+[![Code Climate](https://codeclimate.com/github/niwatolli3/niwa_textream/badges/gpa.svg)](https://codeclimate.com/github/niwatolli3/niwa_textream)
+[![Test Coverage](https://codeclimate.com/github/niwatolli3/niwa_textream/badges/coverage.svg)](https://codeclimate.com/github/niwatolli3/niwa_textream/coverage)
+[![Issue Count](https://codeclimate.com/github/niwatolli3/niwa_textream/badges/issue_count.svg)](https://codeclimate.com/github/niwatolli3/niwa_textream)
 
 NiwaTextream is a scraping library for Yahoo! Textream.
 
