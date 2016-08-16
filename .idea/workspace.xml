@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18e2bdd5-734f-4706-943d-f288678e0994" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/niwa_textream/pages/category/category_page.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/pages/category/category_page_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/niwa_textream/models/thread.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/niwa_textream/pages/thread/thread_page.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/pages/thread_page/thread_page_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/niwa_textream.iml" afterPath="$PROJECT_DIR$/.idea/niwa_textream.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/niwa_textream.rb" afterPath="$PROJECT_DIR$/lib/niwa_textream.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/niwa_textream/models/category.rb" afterPath="$PROJECT_DIR$/lib/niwa_textream/models/category.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/niwa_textream/pages/main/main_page.rb" afterPath="$PROJECT_DIR$/lib/niwa_textream/pages/main/main_page.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/niwa_textream/pages/top/top_page.rb" afterPath="$PROJECT_DIR$/lib/niwa_textream/pages/top/top_page.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/niwa_textream/pages/category/category_page.rb" afterPath="$PROJECT_DIR$/lib/niwa_textream/pages/category/category_page.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/pages/category/category_page_spec.rb" afterPath="$PROJECT_DIR$/spec/pages/category/category_page_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/pages/top/top_page_spec.rb" afterPath="$PROJECT_DIR$/spec/pages/top/top_page_spec.rb" />
     </list>
     <ignored path="niwa_textream.iws" />
@@ -23,6 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/niwa_textream@ThreadPage_thread_have_more_than_1_threads__niwa_textream.coverage" NAME="ThreadPage thread have more than 1 threads: niwa_textream Coverage Results" MODIFIED="1471347785119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
     <SUITE FILE_PATH="coverage/niwa_textream@TopPage_category_can_move_to_CategoryPage__niwa_textream.coverage" NAME="TopPage category can move to CategoryPage: niwa_textream Coverage Results" MODIFIED="1471345693680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="top_page_spec.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="top_page_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/pages/top/top_page_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -57,18 +57,8 @@
       <file leaf-file-name="category_page_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/pages/category/category_page_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spec_helper.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -77,7 +67,7 @@
       <file leaf-file-name="top_page.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/top/top_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="296">
               <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
               <folding />
             </state>
@@ -94,21 +84,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category_page.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="category_page.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/category/category_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="-169">
+              <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/niwa_textream/models/category.rb">
+      <file leaf-file-name="thread_page.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/thread/thread_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="165">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thread.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/niwa_textream/models/thread.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thread_page_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/pages/thread_page/thread_page_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -138,13 +148,16 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/niwa_textream.gemspec" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/spec/pages/top/top_page_spec.rb" />
         <option value="$PROJECT_DIR$/lib/niwa_textream/pages/main/main_page.rb" />
         <option value="$PROJECT_DIR$/lib/niwa_textream/models/category.rb" />
         <option value="$PROJECT_DIR$/lib/niwa_textream/pages/top/top_page.rb" />
         <option value="$PROJECT_DIR$/lib/niwa_textream.rb" />
-        <option value="$PROJECT_DIR$/spec/pages/category/category_page_spec.rb" />
         <option value="$PROJECT_DIR$/lib/niwa_textream/pages/category/category_page.rb" />
+        <option value="$PROJECT_DIR$/lib/niwa_textream/models/thread.rb" />
+        <option value="$PROJECT_DIR$/lib/niwa_textream/pages/thread/thread_page.rb" />
+        <option value="$PROJECT_DIR$/spec/pages/thread_page/thread_page_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/pages/category/category_page_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/pages/top/top_page_spec.rb" />
       </list>
     </option>
   </component>
@@ -257,6 +270,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="thread_page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="niwa_textream" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="niwa_textream" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="category" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -316,6 +351,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="top" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="niwa_textream" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="niwa_textream" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="niwa_textream" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -417,9 +478,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v5.11.1/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="category_page&#9;FILE&#9;file:///Users/tomi/repos/niwa_textream/lib/niwa_textream/pages/category/category_page.rb&#10;top_page&#9;FILE&#9;file:///Users/tomi/repos/niwa_textream/lib/niwa_textream/pages/top/top_page.rb&#10;category&#9;FILE&#9;file:///Users/tomi/repos/niwa_textream/lib/niwa_textream/pages/category/category_page.rb&#10;_spec&#9;FILE&#9;file:///Users/tomi/repos/niwa_textream/spec/pages/top/top_page_spec.rb&#10;to&#9;FILE&#9;file:///Users/tomi/repos/niwa_textream/lib/niwa_textream/pages/top/top_page.rb" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/tomi/repos/niwa_textream/spec/pages/thread_page/thread_page_spec.rb&#10;thread_page&#9;FILE&#9;file:///Users/tomi/repos/niwa_textream/spec/pages/thread_page/thread_page_spec.rb&#10;category_page&#9;FILE&#9;file:///Users/tomi/repos/niwa_textream/lib/niwa_textream/pages/category/category_page.rb&#10;top_page&#9;FILE&#9;file:///Users/tomi/repos/niwa_textream/lib/niwa_textream/pages/top/top_page.rb&#10;category&#9;FILE&#9;file:///Users/tomi/repos/niwa_textream/lib/niwa_textream/pages/category/category_page.rb&#10;_spec&#9;FILE&#9;file:///Users/tomi/repos/niwa_textream/spec/pages/top/top_page_spec.rb&#10;to&#9;FILE&#9;file:///Users/tomi/repos/niwa_textream/lib/niwa_textream/pages/top/top_page.rb" />
   </component>
-  <component name="RunManager" selected="RSpec.TopPage category can move to CategoryPage: niwa_textream">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/pages/thread_page" />
+    </key>
+  </component>
+  <component name="RunManager" selected="RSpec.ThreadPage thread have more than 1 threads: niwa_textream">
     <configuration default="false" name="TopPage category can move to CategoryPage: niwa_textream" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="niwa_textream" />
@@ -443,6 +509,39 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="TopPage category can move to CategoryPage" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ThreadPage thread have more than 1 threads: niwa_textream" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="niwa_textream" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/pages/thread_page/thread_page_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ThreadPage thread have more than 1 threads" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -588,12 +687,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="RSpec.TopPage category can move to CategoryPage: niwa_textream" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.ThreadPage thread have more than 1 threads: niwa_textream" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.TopPage category can move to CategoryPage: niwa_textream" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="RSpec.ThreadPage thread have more than 1 threads: niwa_textream" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.TopPage category can move to CategoryPage: niwa_textream" />
       </list>
     </recent_temporary>
   </component>
@@ -611,23 +712,44 @@
       <option name="presentableId" value="Default" />
       <updated>1471240944571</updated>
       <workItem from="1471240945874" duration="10000" />
-      <workItem from="1471240956444" duration="16779000" />
+      <workItem from="1471240956444" duration="18811000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TopPage_category_can_move_to_CategoryPage__niwa_textream - 2016.08.16 at 20h 06m 49s.xml">
-      <configuration name="TopPage category can move to CategoryPage: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="ThreadPage_thread_have_more_than_1_threads__niwa_textream - 2016.08.16 at 20h 37m 20s.xml">
+      <configuration name="ThreadPage thread have more than 1 threads: niwa_textream" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="TopPage_category_can_move_to_CategoryPage__niwa_textream - 2016.08.16 at 20h 08m 11s.xml">
-      <configuration name="TopPage category can move to CategoryPage: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="ThreadPage_thread_have_more_than_1_threads__niwa_textream - 2016.08.16 at 20h 37m 42s.xml">
+      <configuration name="ThreadPage thread have more than 1 threads: niwa_textream" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="TopPage_category_can_move_to_CategoryPage__niwa_textream - 2016.08.16 at 20h 08m 18s.xml">
-      <configuration name="TopPage category can move to CategoryPage: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="ThreadPage_thread_have_more_than_1_threads__niwa_textream - 2016.08.16 at 20h 38m 02s.xml">
+      <configuration name="ThreadPage thread have more than 1 threads: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ThreadPage_thread_have_more_than_1_threads__niwa_textream - 2016.08.16 at 20h 38m 24s.xml">
+      <configuration name="ThreadPage thread have more than 1 threads: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ThreadPage_thread_have_more_than_1_threads__niwa_textream - 2016.08.16 at 20h 38m 57s.xml">
+      <configuration name="ThreadPage thread have more than 1 threads: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ThreadPage_thread_have_more_than_1_threads__niwa_textream - 2016.08.16 at 20h 40m 20s.xml">
+      <configuration name="ThreadPage thread have more than 1 threads: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ThreadPage_thread_have_more_than_1_threads__niwa_textream - 2016.08.16 at 20h 41m 09s.xml">
+      <configuration name="ThreadPage thread have more than 1 threads: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ThreadPage_thread_have_more_than_1_threads__niwa_textream - 2016.08.16 at 20h 41m 16s.xml">
+      <configuration name="ThreadPage thread have more than 1 threads: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ThreadPage_thread_have_more_than_1_threads__niwa_textream - 2016.08.16 at 20h 41m 34s.xml">
+      <configuration name="ThreadPage thread have more than 1 threads: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ThreadPage_thread_have_more_than_1_threads__niwa_textream - 2016.08.16 at 20h 43m 10s.xml">
+      <configuration name="ThreadPage thread have more than 1 threads: niwa_textream" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16789000" />
+    <option name="totallyTimeSpent" value="18821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="858" extended-state="0" />
@@ -668,7 +790,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -772,14 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/pages/top/top_page_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/main/main_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -788,34 +902,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/top/top_page.rb">
+    <entry file="file://$PROJECT_DIR$/.codeclimate.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        <state relative-caret-position="375">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/niwa_textream/models/category.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="225">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/pages/category/category_page_spec.rb">
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs23/thread.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        <state relative-caret-position="-57">
+          <caret line="148" column="6" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/top/top_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/category/category_page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="-169">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/models/thread.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/thread/thread_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/pages/thread_page/thread_page_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/pages/category/category_page_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/pages/top/top_page_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
       </provider>

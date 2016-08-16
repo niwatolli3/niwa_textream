@@ -1,4 +1,5 @@
 require 'niwa_textream/pages/main/main_page.rb'
+require 'niwa_textream/pages/thread/thread_page'
 
 module NiwaTextream
   class CategoryPage < MainPage
@@ -26,6 +27,11 @@ module NiwaTextream
         puts("--#CategoryPage#--")
         puts(catObj.name)
       end
+    end
+
+    def clickCategory(name)
+      @mechanize.click(@categories[name].elem)
+      return NiwaTextream::ThreadPage.new(@mechanize)
     end
   end
 end

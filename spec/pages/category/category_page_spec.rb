@@ -1,7 +1,7 @@
 require "niwa_textream/pages/top/top_page"
 
 describe 'TopPage' do
-  before do
+  before :all do
     mecha = Mechanize.new
     NiwaTextream::TopPage.goTo(mecha)
     @topPage = NiwaTextream::TopPage.new(mecha)
