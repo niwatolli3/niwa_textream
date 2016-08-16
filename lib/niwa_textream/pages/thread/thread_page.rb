@@ -1,5 +1,6 @@
 require 'niwa_textream/pages/main/main_page.rb'
 require 'niwa_textream/models/thread'
+require 'niwa_textream/pages/message/message_page'
 
 module NiwaTextream
   # thread list
@@ -45,6 +46,11 @@ module NiwaTextream
     def clickPrevPage
       @mechanize.click(@prev_page_elem)
       return NiwaTextream::ThreadPage.new(@mechanize)
+    end
+
+    def clickThread(thread)
+      @mechanize.click(thread.elem)
+      return MessagePage.new(@mechanize)
     end
   end
 end
