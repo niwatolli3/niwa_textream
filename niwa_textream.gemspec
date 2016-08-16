@@ -33,6 +33,8 @@ Gem::Specification.new do |spec|
   # for test
   spec.add_development_dependency "rspec"
 
+  spec.add_development_dependency "codeclimate-test-reporter"
+
   # for this gem
   spec.add_dependency "nokogiri"
   spec.add_dependency "mechanize"
