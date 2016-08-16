@@ -4,11 +4,13 @@ module NiwaTextream
   # Contains Category object.
   class Category < BaseModel
     # category name
-    attr_accessor :name, :parent
+    attr_accessor :name, :parent, :num_thread
 
-    @@name = nil
+    @name = nil
     # parent's category object. top category: Nil
-    @@parent = nil
+    @parent = nil
+
+    @num_thread = -1
 
     def initialize
     end

@@ -2,7 +2,9 @@ require "niwa_textream/pages/top/top_page"
 
 describe 'TopPage' do
   before do
-    @topPage = NiwaTextream::TopPage.new(Mechanize.new)
+    mecha = Mechanize.new
+    NiwaTextream::TopPage.goTo(mecha)
+    @topPage = NiwaTextream::TopPage.new(mecha)
   end
 
   describe 'category' do

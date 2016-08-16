@@ -15,5 +15,14 @@ module NiwaTextream
     def initialize(mechanize)
       @mechanize = mechanize
     end
+
+    # go to page by using mechanize
+    def self.goTo(mechanize)
+      @page = mechanize.get(@@url)
+    end
+
+    def self.url
+      @@url
+    end
   end
 end

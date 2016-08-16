@@ -1,4 +1,5 @@
 require 'niwa_textream/pages/main/main_page.rb'
+require 'niwa_textream/pages/category/category_page.rb'
 
 module NiwaTextream
   # Textream's top page (http://textream.yahoo.co.jp/)
@@ -7,13 +8,8 @@ module NiwaTextream
     @@url = "http://textream.yahoo.co.jp/"
     @categories = nil
 
-    def self.url
-      @@url
-    end
-
     def initialize(mechanize)
       super(mechanize)
-      @page = @mechanize.get(@@url)
       set_categories
     end
 
@@ -31,6 +27,14 @@ module NiwaTextream
         puts("#{cat_name}")
         puts("-------------------")
       end
+    end
+
+    # click category.
+    # * +name+ - category name(string)
+    # return: CategoryPage (If you click this link, you will move to CategoryPage)
+    def clickCategory(name)
+      @mechanize.click(@categories[name].elem)
+      return NiwaTextream::CategoryPage.new(@mechanize)
     end
   end
 end

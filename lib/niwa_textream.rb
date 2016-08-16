@@ -1,7 +1,7 @@
 require "niwa_textream/version"
 require "mechanize"
 
-%w[ models/category pages/top/top_page ].each do |file|
+%w[ models/category pages/top/top_page pages/category/category_page ].each do |file|
   require "niwa_textream/#{ file }"
 end
 
