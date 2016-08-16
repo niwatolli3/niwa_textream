@@ -23,7 +23,7 @@ describe 'MessagePage' do
     end
 
     it 'contains correctly posted_at(current year)' do
-      expect(@message.first.posted_at.year).to be Time.now.year
+      expect(@messages.first.posted_at.year).to be Time.now.year
     end
   end
 end
