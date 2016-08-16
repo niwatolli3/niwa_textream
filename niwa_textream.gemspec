@@ -30,6 +30,10 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
 
+  # for test
+  spec.add_development_dependency "rspec"
+
+  # for this gem
   spec.add_dependency "nokogiri"
-  spec.add_dependency "mechanize", "~> 1.6.8"
+  spec.add_dependency "mechanize"
 end

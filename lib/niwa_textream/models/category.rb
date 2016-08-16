@@ -1,4 +1,4 @@
-require 'base_model'
+require 'niwa_textream/models/base_model'
 
 module NiwaTextream
   # Contains Category object.
@@ -6,9 +6,9 @@ module NiwaTextream
     # category name
     attr_accessor :name, :parent
 
-    @@name = Nil
+    @@name = nil
     # parent's category object. top category: Nil
-    @@parent = Nil
+    @@parent = nil
 
     def initialize
     end
