@@ -6,11 +6,15 @@ module NiwaTextream
   class ThreadPage < MainPage
     @@url = "http://textream.yahoo.co.jp/thread/%{category_id}"
     @threads = nil
-    attr_accessor :threads
+    @next_page_elem
+    @prev_page_elem
+    attr_accessor :threads, :prev_page_elem, :next_page_elem
 
     def initialize(mechanize)
       super(mechanize)
       setThreads
+      setNextPageElem
+      setPrevPageElem
       return self
     end
 
@@ -23,6 +27,24 @@ module NiwaTextream
         @threads.push(NiwaTextream::Thread.new(thread_title_elem, thread_title_elem.inner_text(), num_comment, last_updated))
         puts("#{thread_title_elem.inner_text()}, #{num_comment}, #{last_updated}")
       end
+    end
+
+    def setNextPageElem
+      @next_page_elem = @mechanize.page.search("//*[@class='btnNext']/a")[0]
+    end
+
+    def setPrevPageElem
+      @prev_page_elem = @mechanize.page.search("//*[@class='btnPrev']/a")[0]
+    end
+
+    def clickNextPage
+      @mechanize.click(@next_page_elem)
+      return NiwaTextream::ThreadPage.new(@mechanize)
+    end
+
+    def clickPrevPage
+      @mechanize.click(@prev_page_elem)
+      return NiwaTextream::ThreadPage.new(@mechanize)
     end
   end
 end
