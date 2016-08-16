@@ -1,8 +1,8 @@
 # NiwaTextream
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/niwa_textream`. To experiment with that code, run `bin/console` for an interactive prompt.
+[![Build Status](https://travis-ci.org/niwatolli3/niwa_textream.svg?branch=master)](https://travis-ci.org/niwatolli3/niwa_textream)
 
-TODO: Delete this and the text above, and describe your gem
+NiwaTextream is a scraping library for Yahoo! Textream.
 
 ## Installation
 
