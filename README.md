@@ -25,7 +25,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Get category list displayed on top page
+```ruby
+mecha = Mechanize.new
+NiwaTextream::TopPage.goTo(mecha)
+@topPage = NiwaTextream::TopPage.new(mecha)
+print(@topPage.categories)
+```
 
 ## Development
 
