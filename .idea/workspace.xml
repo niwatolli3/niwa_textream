@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18e2bdd5-734f-4706-943d-f288678e0994" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/niwa_textream.gemspec" afterPath="$PROJECT_DIR$/niwa_textream.gemspec" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/niwa_textream-0.1.0.gem" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="niwa_textream.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,8 +66,8 @@
       <file leaf-file-name="niwa_textream.gemspec" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/niwa_textream.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+            <state relative-caret-position="333">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -853,7 +854,7 @@
       <option name="presentableId" value="Default" />
       <updated>1471240944571</updated>
       <workItem from="1471240945874" duration="10000" />
-      <workItem from="1471240956444" duration="26547000" />
+      <workItem from="1471240956444" duration="26855000" />
     </task>
     <servers />
   </component>
@@ -890,7 +891,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26557000" />
+    <option name="totallyTimeSpent" value="26865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="858" extended-state="0" />
@@ -1172,8 +1173,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/niwa_textream.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        <state relative-caret-position="333">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="12" />
           <folding />
         </state>
       </provider>
