@@ -25,6 +25,8 @@ Or install it yourself as:
 
 ## Usage
 
+This gem is following Page Object Pattern.
+
 Get category list displayed on top page
 ```ruby
 mecha = Mechanize.new
