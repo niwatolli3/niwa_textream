@@ -7,4 +7,6 @@ begin
     spec.pattern = 'spec/**/*_spec.rb'
   end
 rescue LoadError => e
+  puts e.backtrace
+  raise
 end
