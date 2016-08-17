@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18e2bdd5-734f-4706-943d-f288678e0994" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/niwa_textream/pages/message/message_header.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/niwa_textream.iml" afterPath="$PROJECT_DIR$/.idea/niwa_textream.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/niwa_textream/pages/message/message_page.rb" afterPath="$PROJECT_DIR$/lib/niwa_textream/pages/message/message_page.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/niwa_textream/pages/thread/thread_page.rb" afterPath="$PROJECT_DIR$/lib/niwa_textream/pages/thread/thread_page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/pages/message/message_page_spec.rb" afterPath="$PROJECT_DIR$/spec/pages/message/message_page_spec.rb" />
     </list>
     <ignored path="niwa_textream.iws" />
@@ -16,14 +20,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/niwa_textream@MessagePage_message_have_no_prev_page_link__niwa_textream.coverage" NAME="MessagePage message have no prev page link: niwa_textream Coverage Results" MODIFIED="1471451644836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
+    <SUITE FILE_PATH="coverage/niwa_textream@ThreadPage_thread_have_next_page_link__niwa_textream.coverage" NAME="ThreadPage thread have next page link: niwa_textream Coverage Results" MODIFIED="1471348466525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
+    <SUITE FILE_PATH="coverage/niwa_textream@ThreadPage_thread_can_go_to_next_page_and_the_first_post_s_date_is_older_than_the_1st_page_s_last_post__niwa_textream.coverage" NAME="ThreadPage thread can go to next page and the first post's date is older than the 1st page's last post: niwa_textream Coverage Results" MODIFIED="1471348991340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
+    <SUITE FILE_PATH="coverage/niwa_textream@TopPage_category_can_move_to_CategoryPage__niwa_textream.coverage" NAME="TopPage category can move to CategoryPage: niwa_textream Coverage Results" MODIFIED="1471345693680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
+    <SUITE FILE_PATH="coverage/niwa_textream@MessagePage_message_can_go_to_next_page_and_next_page_link_will_appear__niwa_textream.coverage" NAME="MessagePage message can go to next page and next page link will appear: niwa_textream Coverage Results" MODIFIED="1471452078999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
+    <SUITE FILE_PATH="coverage/niwa_textream@MessagePage_message_can_go_to_prev_page_and_next_page_link_will_appear__niwa_textream.coverage" NAME="MessagePage message can go to prev page and next page link will appear: niwa_textream Coverage Results" MODIFIED="1471452192817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
     <SUITE FILE_PATH="coverage/niwa_textream@ThreadPage_thread_have_no_prev_page_link__niwa_textream.coverage" NAME="ThreadPage thread have no prev page link: niwa_textream Coverage Results" MODIFIED="1471348456480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
     <SUITE FILE_PATH="coverage/niwa_textream@MessagePage_message_should_have_at_least_one__niwa_textream.coverage" NAME="MessagePage message should have at least one: niwa_textream Coverage Results" MODIFIED="1471351011995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
     <SUITE FILE_PATH="coverage/niwa_textream@ThreadPage_thread_can_go_to_next_page_and_prev_page_link_will_appear__niwa_textream.coverage" NAME="ThreadPage thread can go to next page and prev page link will appear: niwa_textream Coverage Results" MODIFIED="1471348493114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
-    <SUITE FILE_PATH="coverage/niwa_textream@ThreadPage_thread_have_next_page_link__niwa_textream.coverage" NAME="ThreadPage thread have next page link: niwa_textream Coverage Results" MODIFIED="1471348466525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
     <SUITE FILE_PATH="coverage/niwa_textream@ThreadPage_thread_have_more_than_1_threads__niwa_textream.coverage" NAME="ThreadPage thread have more than 1 threads: niwa_textream Coverage Results" MODIFIED="1471347785119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
-    <SUITE FILE_PATH="coverage/niwa_textream@ThreadPage_thread_can_go_to_next_page_and_the_first_post_s_date_is_older_than_the_1st_page_s_last_post__niwa_textream.coverage" NAME="ThreadPage thread can go to next page and the first post's date is older than the 1st page's last post: niwa_textream Coverage Results" MODIFIED="1471348991340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
-    <SUITE FILE_PATH="coverage/niwa_textream@MessagePage_message_contains_correctly_posted_at_current_year___niwa_textream.coverage" NAME="MessagePage message contains correctly posted_at(current year): niwa_textream Coverage Results" MODIFIED="1471362662363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
-    <SUITE FILE_PATH="coverage/niwa_textream@TopPage_category_can_move_to_CategoryPage__niwa_textream.coverage" NAME="TopPage category can move to CategoryPage: niwa_textream Coverage Results" MODIFIED="1471345693680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
+    <SUITE FILE_PATH="coverage/niwa_textream@MessagePage_message_contains_correctly_posted_at_current_year___niwa_textream.coverage" NAME="MessagePage message contains correctly posted_at(current year): niwa_textream Coverage Results" MODIFIED="1471443288455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
+    <SUITE FILE_PATH="coverage/niwa_textream@MessagePage_message_have_prev_page_link__niwa_textream.coverage" NAME="MessagePage message have prev page link: niwa_textream Coverage Results" MODIFIED="1471451657191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
+    <SUITE FILE_PATH="coverage/niwa_textream@MessagePage_message_can_go_to_prev_page_and_the_first_post_s_date_is_older_than_the_1st_page_s_last_post__niwa_textream.coverage" NAME="MessagePage message can go to prev page and the first post's date is older than the 1st page's last post: niwa_textream Coverage Results" MODIFIED="1471452230505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
+    <SUITE FILE_PATH="coverage/niwa_textream@MessagePage_message_have_no_next_page_link__niwa_textream.coverage" NAME="MessagePage message have no next page link: niwa_textream Coverage Results" MODIFIED="1471451784481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="niwa_textream" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -54,51 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category_page.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/category/category_page.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-169">
-              <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="thread_page.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/thread/thread_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thread.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/niwa_textream/models/thread.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thread_page_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/pages/thread_page/thread_page_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message_page_spec.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/pages/message/message_page_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="287">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,18 +77,48 @@
       <file leaf-file-name="message_page.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/message/message_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="225">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeUtil.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/niwa_textream/utils/TimeUtil.rb">
+      <file leaf-file-name="top_page.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/top/top_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="365">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="message_header.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/message/message_header.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="message_page_spec.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/pages/message/message_page_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thread_page_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/pages/thread_page/thread_page_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -158,9 +158,10 @@
         <option value="$PROJECT_DIR$/spec/pages/top/top_page_spec.rb" />
         <option value="$PROJECT_DIR$/spec/pages/thread_page/thread_page_spec.rb" />
         <option value="$PROJECT_DIR$/lib/niwa_textream/models/message.rb" />
-        <option value="$PROJECT_DIR$/lib/niwa_textream/pages/message/message_page.rb" />
-        <option value="$PROJECT_DIR$/lib/niwa_textream/pages/thread/thread_page.rb" />
         <option value="$PROJECT_DIR$/lib/niwa_textream/utils/TimeUtil.rb" />
+        <option value="$PROJECT_DIR$/lib/niwa_textream/pages/thread/thread_page.rb" />
+        <option value="$PROJECT_DIR$/lib/niwa_textream/pages/message/message_header.rb" />
+        <option value="$PROJECT_DIR$/lib/niwa_textream/pages/message/message_page.rb" />
         <option value="$PROJECT_DIR$/spec/pages/message/message_page_spec.rb" />
       </list>
     </option>
@@ -562,107 +563,8 @@
       <recent name="$PROJECT_DIR$/spec/pages/thread_page" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.MessagePage message contains correctly posted_at(current year): niwa_textream">
-    <configuration default="false" name="ThreadPage thread have next page link: niwa_textream" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="niwa_textream" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/pages/thread_page/thread_page_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ThreadPage thread have next page link" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ThreadPage thread can go to next page and prev page link will appear: niwa_textream" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="niwa_textream" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/pages/thread_page/thread_page_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ThreadPage thread can go to next page and prev page link will appear" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ThreadPage thread can go to next page and the first post's date is older than the 1st page's last post: niwa_textream" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="niwa_textream" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/pages/thread_page/thread_page_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ThreadPage thread can go to next page and the first post's date is older than the 1st page's last post" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MessagePage message should have at least one: niwa_textream" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.MessagePage message can go to prev page and the first post's date is older than the 1st page's last post: niwa_textream">
+    <configuration default="false" name="MessagePage message have prev page link: niwa_textream" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="niwa_textream" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -684,7 +586,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/pages/message/message_page_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="MessagePage message should have at least one" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="MessagePage message have prev page link" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -695,7 +597,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="MessagePage message contains correctly posted_at(current year): niwa_textream" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="MessagePage message have no next page link: niwa_textream" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="niwa_textream" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -717,7 +619,106 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/pages/message/message_page_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="MessagePage message contains correctly posted_at(current year)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="MessagePage message have no next page link" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MessagePage message can go to next page and next page link will appear: niwa_textream" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="niwa_textream" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/pages/message/message_page_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="MessagePage message can go to next page and next page link will appear" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MessagePage message can go to prev page and next page link will appear: niwa_textream" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="niwa_textream" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/pages/message/message_page_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="MessagePage message can go to prev page and next page link will appear" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MessagePage message can go to prev page and the first post's date is older than the 1st page's last post: niwa_textream" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="niwa_textream" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/pages/message/message_page_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="MessagePage message can go to prev page and the first post's date is older than the 1st page's last post" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -864,19 +865,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="RSpec.ThreadPage thread have next page link: niwa_textream" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.ThreadPage thread can go to next page and prev page link will appear: niwa_textream" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.ThreadPage thread can go to next page and the first post's date is older than the 1st page's last post: niwa_textream" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.MessagePage message should have at least one: niwa_textream" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.MessagePage message contains correctly posted_at(current year): niwa_textream" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.MessagePage message have prev page link: niwa_textream" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.MessagePage message have no next page link: niwa_textream" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.MessagePage message can go to next page and next page link will appear: niwa_textream" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.MessagePage message can go to prev page and next page link will appear: niwa_textream" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.MessagePage message can go to prev page and the first post's date is older than the 1st page's last post: niwa_textream" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.MessagePage message contains correctly posted_at(current year): niwa_textream" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.MessagePage message should have at least one: niwa_textream" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.ThreadPage thread can go to next page and the first post's date is older than the 1st page's last post: niwa_textream" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.ThreadPage thread can go to next page and prev page link will appear: niwa_textream" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.ThreadPage thread have next page link: niwa_textream" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.MessagePage message can go to prev page and the first post's date is older than the 1st page's last post: niwa_textream" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.MessagePage message can go to prev page and next page link will appear: niwa_textream" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.MessagePage message can go to next page and next page link will appear: niwa_textream" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.MessagePage message have no next page link: niwa_textream" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.MessagePage message have prev page link: niwa_textream" />
       </list>
     </recent_temporary>
   </component>
@@ -894,44 +895,44 @@
       <option name="presentableId" value="Default" />
       <updated>1471240944571</updated>
       <workItem from="1471240945874" duration="10000" />
-      <workItem from="1471240956444" duration="22072000" />
+      <workItem from="1471240956444" duration="25764000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MessagePage_message_should_have_at_least_one__niwa_textream - 2016.08.16 at 21h 31m 10s.xml">
-      <configuration name="MessagePage message should have at least one: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="MessagePage_message_can_go_to_next_page_and_next_page_link_will_appear__niwa_textream - 2016.08.18 at 01h 39m 07s.xml">
+      <configuration name="MessagePage message can go to next page and next page link will appear: niwa_textream" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="MessagePage_message_should_have_at_least_one__niwa_textream - 2016.08.16 at 21h 31m 22s.xml">
-      <configuration name="MessagePage message should have at least one: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="MessagePage_message_can_go_to_next_page_and_next_page_link_will_appear__niwa_textream - 2016.08.18 at 01h 39m 35s.xml">
+      <configuration name="MessagePage message can go to next page and next page link will appear: niwa_textream" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="MessagePage_message_should_have_at_least_one__niwa_textream - 2016.08.16 at 21h 31m 39s.xml">
-      <configuration name="MessagePage message should have at least one: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="MessagePage_message_can_go_to_next_page_and_next_page_link_will_appear__niwa_textream - 2016.08.18 at 01h 40m 39s.xml">
+      <configuration name="MessagePage message can go to next page and next page link will appear: niwa_textream" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="MessagePage_message_should_have_at_least_one__niwa_textream - 2016.08.16 at 21h 32m 00s.xml">
-      <configuration name="MessagePage message should have at least one: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="MessagePage_message_can_go_to_next_page_and_next_page_link_will_appear__niwa_textream - 2016.08.18 at 01h 41m 00s.xml">
+      <configuration name="MessagePage message can go to next page and next page link will appear: niwa_textream" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="MessagePage_message_should_have_at_least_one__niwa_textream - 2016.08.16 at 21h 32m 28s.xml">
-      <configuration name="MessagePage message should have at least one: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="MessagePage_message_can_go_to_next_page_and_next_page_link_will_appear__niwa_textream - 2016.08.18 at 01h 41m 31s.xml">
+      <configuration name="MessagePage message can go to next page and next page link will appear: niwa_textream" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="MessagePage_message_should_have_at_least_one__niwa_textream - 2016.08.16 at 21h 33m 57s.xml">
-      <configuration name="MessagePage message should have at least one: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="MessagePage_message_can_go_to_prev_page_and_next_page_link_will_appear__niwa_textream - 2016.08.18 at 01h 43m 04s.xml">
+      <configuration name="MessagePage message can go to prev page and next page link will appear: niwa_textream" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="MessagePage_message_should_have_at_least_one__niwa_textream - 2016.08.16 at 21h 34m 40s.xml">
-      <configuration name="MessagePage message should have at least one: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="MessagePage_message_can_go_to_prev_page_and_next_page_link_will_appear__niwa_textream - 2016.08.18 at 01h 43m 19s.xml">
+      <configuration name="MessagePage message can go to prev page and next page link will appear: niwa_textream" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="MessagePage_message_should_have_at_least_one__niwa_textream - 2016.08.16 at 21h 34m 47s.xml">
-      <configuration name="MessagePage message should have at least one: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="MessagePage_message_can_go_to_prev_page_and_the_first_post's_date_is_older_than_the_1st_page's_last_post__niwa_textream - 2016.08.18 at 01h 43m 27s.xml">
+      <configuration name="MessagePage message can go to prev page and the first post's date is older than the 1st page's last post: niwa_textream" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="MessagePage_message_should_have_at_least_one__niwa_textream - 2016.08.16 at 21h 37m 02s.xml">
-      <configuration name="MessagePage message should have at least one: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="MessagePage_message_can_go_to_prev_page_and_the_first_post's_date_is_older_than_the_1st_page's_last_post__niwa_textream - 2016.08.18 at 01h 43m 57s.xml">
+      <configuration name="MessagePage message can go to prev page and the first post's date is older than the 1st page's last post: niwa_textream" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="ThreadPage_thread_can_go_to_next_page_and_the_first_post's_date_is_older_than_the_1st_page's_last_post__niwa_textream - 2016.08.16 at 21h 03m 18s.xml">
-      <configuration name="ThreadPage thread can go to next page and the first post's date is older than the 1st page's last post: niwa_textream" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="MessagePage_message_have_no_next_page_link__niwa_textream - 2016.08.18 at 01h 36m 41s.xml">
+      <configuration name="MessagePage message have no next page link: niwa_textream" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22082000" />
+    <option name="totallyTimeSpent" value="25774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="858" extended-state="0" />
@@ -950,7 +951,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494639" sideWeight="0.50639856" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46871164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33374232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -972,7 +973,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/lib/niwa_textream/pages/message/message_header.rb</url>
+          <line>39</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1076,14 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/main/main_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.codeclimate.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1108,34 +1108,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/top/top_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/category/category_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-169">
           <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/pages/category/category_page_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/models/thread.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1156,38 +1132,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/models/message.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/message/message_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/pages/thread_page/thread_page_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/thread/thread_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/niwa_textream/utils/TimeUtil.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1196,10 +1140,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/models/thread.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/models/message.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/thread/thread_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/pages/category/category_page_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/main/main_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/message/message_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/top/top_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/niwa_textream/pages/message/message_header.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/pages/thread_page/thread_page_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/pages/message/message_page_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="425">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
           <folding />
         </state>
       </provider>

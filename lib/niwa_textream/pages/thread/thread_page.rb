@@ -38,6 +38,14 @@ module NiwaTextream
       @prev_page_elem = @mechanize.page.search("//*[@class='btnPrev']/a")[0]
     end
 
+    def prevPageAvail?
+      @prev_page_elem.nil? == false
+    end
+
+    def nextPageAvail?
+      @next_page_elem.nil? == false
+    end
+
     def clickNextPage
       @mechanize.click(@next_page_elem)
       return NiwaTextream::ThreadPage.new(@mechanize)

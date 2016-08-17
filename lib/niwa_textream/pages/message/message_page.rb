@@ -2,15 +2,18 @@ require 'niwa_textream/pages/main/main_page.rb'
 require 'niwa_textream/pages/thread/thread_page'
 require 'niwa_textream/utils/TimeUtil'
 require 'niwa_textream/models/message'
+require 'niwa_textream/pages/message/message_header'
 
 module NiwaTextream
   class MessagePage < MainPage
     # @@url = "http://textream.yahoo.co.jp/category/%{category_id}"
     @messages = nil
-    attr_accessor :messages
+    @message_header = nil
+    attr_accessor :messages, :message_header
 
     def initialize(mechanize)
       super(mechanize)
+      @message_header = MessageHeader.new(mechanize)
       setMessages
       return self
     end

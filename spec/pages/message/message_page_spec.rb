@@ -25,5 +25,31 @@ describe 'MessagePage' do
     it 'contains correctly posted_at(current year)' do
       expect(@messages.first.posted_at.year).to be Time.now.year
     end
+
+    it 'have prev page link' do
+      expect(@messagePage.message_header.prevPageAvail?).to be_truthy
+    end
+
+    it 'have no next page link' do
+      expect(@messagePage.message_header.nextPageAvail?).to be_falsey
+    end
+
+    it 'can go to prev page and next page link will appear' do
+      @messagePage = @messagePage.message_header.clickPrevButton
+      # the prev link will appear
+      expect(@messagePage.message_header.nextBtn).not_to be_nil
+      # the next link will appear
+      expect(@messagePage.message_header.prevBtn).not_to be_nil
+      @messagePage = @messagePage.message_header.clickPrevButton
+    end
+
+    it "can go to prev page and the first post's date is older than the 1st page's last post" do
+      first_last_post = @messagePage.messages.last
+      @messagePage = @messagePage.message_header.clickPrevButton
+      # the prev link will appear
+      prev_first_post = @messagePage.messages.first
+      # the message is newest order
+      expect(prev_first_post.posted_at).to be <= first_last_post.posted_at
+    end
   end
 end
