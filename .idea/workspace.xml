@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18e2bdd5-734f-4706-943d-f288678e0994" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/niwa_textream-0.1.0.gem" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="niwa_textream.iws" />
@@ -854,7 +853,7 @@
       <option name="presentableId" value="Default" />
       <updated>1471240944571</updated>
       <workItem from="1471240945874" duration="10000" />
-      <workItem from="1471240956444" duration="26855000" />
+      <workItem from="1471240956444" duration="27065000" />
     </task>
     <servers />
   </component>
@@ -891,7 +890,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26865000" />
+    <option name="totallyTimeSpent" value="27075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="858" extended-state="0" />
